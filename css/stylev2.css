@@ -60,9 +60,8 @@ a.bar-menu#a:hover{
   width: 100%;
   margin: 0;
   padding: 0;
-  color: #ffffff !important;
   font-size: 1.2rem;
-  background-image: url(../img/fondo1.jpg);
+  background-image: url(../img/fondo3.jpg) !important;
 }
 .h-100{
   height: 100%
@@ -209,96 +208,3 @@ a.bar-menu:hover{
 .uk-section-default.uk-background-fixed.uk-background-bottom-center.footer{
   background-color: white;
 }
-/***************************************************karla****************************************/
-  .ghost {
-   /* margin: 1rem 0rem 0rem 29.5rem; aqui empece a quitar cosas porque afectaba a la pagina*/
-    animation: float 3s ease-out infinite;
-  }
-
-@keyframes float {
-    50% {
-       transform: translate(0, 20px);
-    }
-  }
-  /*lo rojo del fantasma*/
-  .shadowFrame {
-    width: 150px;
-    margin-top: 7% !important;
-    margin: 0 auto;
-  }
-  .shadow {
-    /* margin: 0rem 0rem 0rem 30rem; */
-    /* margin: 8rem 0rem 0rem 30rem; */
-    animation: shrink 3s ease-out infinite;
-    /* transform-origin: center center; */
-  }
-
-  
-  @keyframes shrink {
-    0% {/*
-      width: 90%;
-        
-      margin: 0rem 1rem 0rem 30rem;*/
-      width: 100%;
-    }
-    10% {/*
-      width: 60%;
-      /* margin: 0 18%;
-      margin: 0rem 2rem 0rem 31rem; */
-      width: 95%;
-    }
-    20% {/*
-      width: 60%;
-      /* margin: 0 18%;
-      margin: 0rem 2rem 0rem 31rem; */
-      width: 90%;
-    }
-    30% {/*
-      width: 60%;
-      /* margin: 0 18%;
-      margin: 0rem 2rem 0rem 31rem; */
-      width: 85%;
-    }
-    50% {/*
-      width: 60%;
-      /* margin: 0 18%;
-      margin: 0rem 2rem 0rem 31rem; */
-      width: 70%;
-    }
-    60% {/*
-      width: 60%;
-      /* margin: 0 18%;
-      margin: 0rem 2rem 0rem 31rem; */
-      width: 60%;
-    }
-    70% {/*
-      width: 60%;
-      /* margin: 0 18%;
-      margin: 0rem 2rem 0rem 31rem; */
-      width: 50%;
-    }
-    100% {/* 
-      width: 90%;
-      margin: 0 5%; 
-      margin: 0rem 1rem 0rem 30rem;*/
-      width: 40%;
-    }
-  }
-/* css original del circulo rojo: problema se mueve la pagina si lo dejamos asi;
- @keyframes shrink {
-    0% {
-      width: 90%;
-      /* margin: 0 5%; 
-      margin: 0rem 1rem 0rem 30rem;
-    }
-    50% {
-      width: 60%;*/
-      /* margin: 0 18%; 
-      margin: 0rem 2rem 0rem 31rem;
-    }
-    100% {
-      width: 90%;*/
-      /* margin: 0 5%; 
-      margin: 0rem 1rem 0rem 30rem;
-    }
-  }*/
