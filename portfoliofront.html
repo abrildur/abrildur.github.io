@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/littlebu.png">
+    <title>Abril Ureña: Portafolio</title>
+  </head>
+  <body id="body">
+    <div class="uk-section-default uk-background-blend-darken welcome uk-background-fixed uk-background-cover " id="Inicio">
+        <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200">
+            <nav class="uk-navbar-container" uk-navbar>
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav">
+                    <li class="uk-active alte-bold "><a href="index.html" class="inline uk-heading-primary"><img src="img/logo.png" alt="icono" class="icono"></a></li>
+                    </ul>
+                </div>
+                  <div class="uk-navbar-right ">
+                          <ul class="uk-navbar-nav">
+                             <li class="uk-active"><a class="bar-menu" href="./index.html">Home</a></li>
+                             <!-- <li class="uk-active"><a class="bar-menu" href="./curriculumvitae.html" style="text-align: center;">Curriculum Vitae</a></li>
+                              <li class="uk-active"><a class="bar-menu" href="./curriculumvitae.html" style="text-align: center;">Grades</a></li>-->
+                              <li class="uk-active"><a class="bar-menu" href="./portfolio.html" style="text-align: center;">Portfolio</a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li class="uk-active"><a href="./portfolioux.html">UX Researcher</a></li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li class="uk-active"><a href="./uidesign.html">UI Designer</a></li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li class="uk-active"><a href="./contentdesign.html">Content Designer</a></li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li class="uk-active"><a href="./portfoliofront.html">Front-end Developer</a></li>
+                                    </ul>
+                                </div>
+                              </li>
+                              <!--<li class="uk-active"><a class="bar-menu" href="./others.html" style="text-align: center;">Other Projects</a></li>-->
+                          </ul>
+                  </div>
+            </nav>
+        </div>
+        <!--Seccion de background principal -->
+        <div class="uk-child-width-1-1@s" uk-grid>
+          <div>
+              <div class="uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-center uk-flex-middle" style="background-image: url(./img/front3.png);">
+                <div class="uk-overlay-primary uk-position-cover uk-dark"></div>
+                <div class="uk-overlay uk-position-center uk-light">
+                    <p class="alte-bold uk-h1">Front-end Portfolio</p>
+                </div>  
+            </div>
+          </div>
+        </div>
+        <!------------------------------------------------------------------------proyecto: Bumble ------------------------>
+           <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
+                <div style="text-align: center !important; margin: 1%;"> 
+                      <h2 style="color: black;">SPIRIT TEA</h2>
+                      <h3 style="color: black; margin: 10px;">It is a website for the <a href="https://spirittea.fime.uanl.mx/" id="spiritlink">SPIRIT TEA</a> mobile app, which is focused on children with autism.</h3>
+                      <h4 style="color: black">Languages and Frameworks: JavaScript, CSS and Uikit</h4>
+                </div>
+                <div> 
+                    <h3 style="color: black; text-align: center;"></h3>
+                    <video src="./video/spirit.mp4" style="width: 80%; align-items: center !important;" controls playsinline uk-video="autoplay: inview"></video>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div class="uk-grid-divider uk-child-width-expand@s"  uk-grid>
+                   <div style="text-align: center !important; margin: 1%;"> 
+                      <h2 style="color: black;">MexIA</h2>
+                      <h4 style="color: black; margin: 10px;">It is a project for the Hackathon organized by Innovaccion Virtual Microsoft. 
+                        <br><br>The main idea of making this platform was to share the origin of one of our most beloved and famous tradition around the world "Dia de Muertos" to foreign people or even to fellow mexicans whom are willing to know more about our roots using Artificial Intelligence with Microsoft Technologies.<br>
+                       <br><a href="https://github.com/abrildur/mexIA" style="color: blue !important" id="spiritlink">Link to the Github repository</a> where you can find more information about the project among it's source code.</h4>
+                      <h5 style="color: black;">Languages and Frameworks: JavaScript, CSS, Python, and Uikit</h5>
+                      <h5 style="color: black;">Technologies: Azure QnA Maker, Azure Bot, Azure Custom Vision</h5>
+                      <br>
+                     <br>
+                </div>
+                <div> 
+                      <h3 style="color: black; text-align: center;"></h3>
+                      <video src="./video/mexia.mp4" style="width: 80%;" controls playsinline uk-video="autoplay: inview"></video>
+                  </div>
+                  <br>
+                  <br>
+          </div>
+        </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit-icons.min.js"></script>
+</html>
