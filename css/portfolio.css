@@ -29,11 +29,7 @@ a#spiritlink:hover{
 @font-face {
     font-family: 'Roboto', sans-serif;
  /* TTF file for CSS3 browsers */
-}
-@font-face {
-    font-family: 'Roboto', sans-serif;
-) /* TTF file for CSS3 browsers */
-}
+
 html,body{
   height: 100%;
   width: 100%;
@@ -160,21 +156,30 @@ a.bar-menu:hover{
 .uk-navbar-item, .uk-navbar-nav > li > a, .uk-navbar-toggle{
   padding: 0 0;
 }
-/* Small devices (portrait tablets and large phones, 600px and up) */
+footer{
+  margin-top: 10% !important;
+  padding: 10px;
+  margin: 50px !important; 
+  font-size: 1rem !important;
+}
+footer a {
+  font-size: 2rem !important;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) 
 @media only screen and (min-width: 600px) {
 
-}
-/* Extra small devices (phones, 600px and down) */
+}*/
+/* Extra small devices (phones, 600px and down
 @media only screen and (max-width: 600px) {
   .icono {
     max-width: 80% !Important;
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, 768px and up) 
 @media only screen and (min-width: 768px) {...}
-
-/* Large devices (laptops/desktops, 992px and up) */
+*/
+/* Large devices (laptops/desktops, 992px and up) 
 @media only screen and (min-width: 992px) {...}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+*/
+/* Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {...}) */

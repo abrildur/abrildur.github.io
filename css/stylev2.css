@@ -26,11 +26,7 @@ a#spiritlink:hover{
 @font-face {
     font-family: 'Roboto', sans-serif;
  /* TTF file for CSS3 browsers */
-}
-@font-face {
-    font-family: 'Roboto', sans-serif;
-) /* TTF file for CSS3 browsers */
-}
+
 html,body{
   height: 100%;
   width: 100%;
