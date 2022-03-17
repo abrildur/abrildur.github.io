@@ -33,8 +33,11 @@ a#spiritlink:hover{
 html,body{
   height: 100%;
   width: 100%;
- font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #505050 !important;
+}
+body{
+  margin-bottom: 50px !important;
 }
 img{
     max-width: 100%;
@@ -157,13 +160,14 @@ a.bar-menu:hover{
   padding: 0 0;
 }
 footer{
-  margin-top: 10% !important;
+  margin: 50px;
   padding: 10px;
-  margin: 50px !important; 
   font-size: 1rem !important;
+  position:absolute;
 }
 footer a {
   font-size: 2rem !important;
+  margin-bottom: 800% !important;
 }
 /* Small devices (portrait tablets and large phones, 600px and up) 
 @media only screen and (min-width: 600px) {
