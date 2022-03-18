@@ -23,6 +23,9 @@ h1{
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+ul{
+  color: black;
+}
 /*cards*/
 @media(min-width: 1024px){
   .uk-card.uk-card-hover.uk-card-body.uk-card-small{
