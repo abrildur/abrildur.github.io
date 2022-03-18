@@ -1,12 +1,20 @@
-h1{
+h2{
     padding: 0 10%;
     font-family: "Averta CY",sans-serif;
+    color: black;
 }
 h3 {
     padding: 0 10%;
     font-family: "Averta CY",sans-serif;
+    color: black;
 }
-p {
+h1{
+  padding: 0 10%;
+  color: black;
+  font-family: "Averta CY",sans-serif;
+  margin-bottom: -5%;
+}
+  p {
   font-family: "Averta CY",sans-serif;
   color: black;
   margin-bottom: 1em;
@@ -15,7 +23,6 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
-
 /*cards*/
 @media(min-width: 1024px){
   .uk-card.uk-card-hover.uk-card-body.uk-card-small{
@@ -29,6 +36,15 @@ p {
     min-width: 900px;
     margin-left: -20%;
   }
+  h1{
+    font-size: 60px;
+  }
+  h2{
+    font-size: 34px;
+  }
+  h3{
+    font-size: 20px;
+  }
 }
 @media (min-width: 768px){
   div#columna-d {
@@ -38,6 +54,8 @@ p {
       letter-spacing: normal;
   }
 }
+
+
 img.icono{
     width: 20em !important;
   }
@@ -62,7 +80,7 @@ img.icono{
   html,body{
     height: 100%;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Averta CY",sans-serif;
     color: #505050 !important;
   }
   body{
