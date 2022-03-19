@@ -26,6 +26,9 @@ h1{
 ul{
   color: black;
 }
+ol{
+  color: black;
+}
 /*cards*/
 @media(min-width: 1024px){
   .uk-card.uk-card-hover.uk-card-body.uk-card-small{
